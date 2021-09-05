@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="ng2.template" datatype="plaintext" xml:space="preserve" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="my-custom-key" datatype="html">
+        <source>Hello this is a template text</source>
+        <target>Hallo das ist ein Template Text</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="template-only" datatype="html">
+        <source>Template only</source>
+        <target>Nur Template</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="title" datatype="html">
+        <source>Hello <x id="PH" equiv-text="this.userName" /></source>
+        <target>Hallo <x id="PH" equiv-text="this.userName" /></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

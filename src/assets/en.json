@@ -1,0 +1,6 @@
+{
+  "locale": "en",
+  "translations": {
+    "title": "JSON: Hello Json {$PH}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "locale": "de",
+  "translations": {
+    "my-custom-key": "JSON: Hallo das ist mein Json Template Text",
+    "title": "JSON: Hallo Json {$PH}"
+  }
+}
